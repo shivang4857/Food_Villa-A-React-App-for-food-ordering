@@ -7,7 +7,7 @@ import { IMG_CDN_URL } from "./config";
 import { restaurantList } from "./config";
 import { useState } from "react";
 import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom";
-import Contact from "./Components/Contact";
+import Contact from "./Components/contact";
 import About from "./components/about";
 import RestaurantMenu from "./components/restaurantMenu";
 import Error from "./components/error";
