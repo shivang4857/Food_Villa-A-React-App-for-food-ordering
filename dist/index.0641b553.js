@@ -3109,7 +3109,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/header":"aorvA","./components/body":"fxbaO","./components/footer":"bjsug","./config":"jtCLN","react-router-dom":"9xmpe","./components/about":"adsiP","./components/restaurantMenu":"1ug3V","./components/error":"14UOH","./components/login":"83uTW","react-redux":"62sf7","../utils/store":"hkUX0","./components/cart":"97YSD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/contact":"kLvWg"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/header":"aorvA","./components/body":"fxbaO","./components/footer":"bjsug","./config":"jtCLN","react-router-dom":"9xmpe","./components/contact":"kLvWg","./components/about":"adsiP","./components/restaurantMenu":"1ug3V","./components/error":"14UOH","./components/login":"83uTW","react-redux":"62sf7","../utils/store":"hkUX0","./components/cart":"97YSD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -37603,7 +37603,128 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"adsiP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kLvWg":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c69a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c69a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+const Contact = ()=>{
+    _s();
+    const [message, setMessage] = (0, _react.useState)(false);
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        setMessage(true);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "contact-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contact-left",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: "https://th.bing.com/th/id/OIP.zoSaGEN83dh-e62wCovM4AHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                    alt: ""
+                }, void 0, false, {
+                    fileName: "src/components/contact.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/contact.js",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contact-right",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Contact us"
+                    }, void 0, false, {
+                        fileName: "src/components/contact.js",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        onSubmit: handleSubmit,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                placeholder: "Name",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/contact.js",
+                                lineNumber: 15,
+                                columnNumber: 19
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "email",
+                                placeholder: "Email",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/contact.js",
+                                lineNumber: 16,
+                                columnNumber: 23
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                placeholder: "Type your Message here...",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/contact.js",
+                                lineNumber: 17,
+                                columnNumber: 23
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "submit",
+                                children: "Submit"
+                            }, void 0, false, {
+                                fileName: "src/components/contact.js",
+                                lineNumber: 18,
+                                columnNumber: 23
+                            }, undefined),
+                            message && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Thanks for contacting FoodFire, We will reply ASAP."
+                            }, void 0, false, {
+                                fileName: "src/components/contact.js",
+                                lineNumber: 19,
+                                columnNumber: 35
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/contact.js",
+                        lineNumber: 14,
+                        columnNumber: 19
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/contact.js",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/contact.js",
+        lineNumber: 8,
+        columnNumber: 10
+    }, undefined);
+};
+_s(Contact, "n0fnK4ZqApEScFgFl1/p++eCWeA=");
+_c = Contact;
+exports.default = Contact;
+var _c;
+$RefreshReg$(_c, "Contact");
+
+  $parcel$ReactRefreshHelpers$c69a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"adsiP":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$6418 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -37716,7 +37837,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactRouterDom = require("react-router-dom"); // import useParams for read `resId`
 var _config = require("../config");
-var _shimmer = require("./Shimmer");
+var _shimmer = require("./shimmer");
 var _cartSlice = require("../../utils/cartSlice");
 var _reactRedux = require("react-redux");
 var _s = $RefreshSig$();
@@ -37975,256 +38096,7 @@ $RefreshReg$(_c, "RestaurantMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../config":"jtCLN","./Shimmer":"g6ZGj","../../utils/cartSlice":"1D8lC","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"g6ZGj":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0b04 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0b04.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MenuShimmer", ()=>MenuShimmer);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-shimmer_card_unit = 20;
-shimmer_menu_card_unit = 4;
-const CardShimmer = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "shimmer-card",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "shimmer-img stroke animate"
-            }, void 0, false, {
-                fileName: "src/components/Shimmer.js",
-                lineNumber: 5,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "shimmer-title stroke animate"
-            }, void 0, false, {
-                fileName: "src/components/Shimmer.js",
-                lineNumber: 6,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "shimmer-tags stroke animate "
-            }, void 0, false, {
-                fileName: "src/components/Shimmer.js",
-                lineNumber: 7,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "shimmer-details stroke animate "
-            }, void 0, false, {
-                fileName: "src/components/Shimmer.js",
-                lineNumber: 8,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Shimmer.js",
-        lineNumber: 4,
-        columnNumber: 10
-    }, undefined);
-};
-_c = CardShimmer;
-const MenuShimmer = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "restaurant-menu",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "restaurant-summary stroke-color animate",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "shimmer-img stroke animate"
-                    }, void 0, false, {
-                        fileName: "src/components/Shimmer.js",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "restaurant-summary-details",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                className: "shimmer-w40  stroke animate"
-                            }, void 0, false, {
-                                fileName: "src/components/Shimmer.js",
-                                lineNumber: 16,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "shimmer-w20 stroke animate"
-                            }, void 0, false, {
-                                fileName: "src/components/Shimmer.js",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "shimmer-w60  stroke animate"
-                            }, void 0, false, {
-                                fileName: "src/components/Shimmer.js",
-                                lineNumber: 18,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Shimmer.js",
-                        lineNumber: 15,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Shimmer.js",
-                lineNumber: 13,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "restaurant-menu-content",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "menu-items-container",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "menu-title-wrap ",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "shimmer-w40 stroke animate"
-                                }, void 0, false, {
-                                    fileName: "src/components/Shimmer.js",
-                                    lineNumber: 26,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "shimmer-w20 stroke animate"
-                                }, void 0, false, {
-                                    fileName: "src/components/Shimmer.js",
-                                    lineNumber: 27,
-                                    columnNumber: 15
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Shimmer.js",
-                            lineNumber: 25,
-                            columnNumber: 13
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "menu-items-list",
-                            children: Array(shimmer_menu_card_unit).fill("").map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "shimmer-menu-card",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "shimmer-item-details",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    className: "shimmer-w40  stroke animate"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Shimmer.js",
-                                                    lineNumber: 32,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    className: "shimmer-w20  stroke animate",
-                                                    children: " "
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Shimmer.js",
-                                                    lineNumber: 33,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    className: "shimmer-w60  stroke animate"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Shimmer.js",
-                                                    lineNumber: 34,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/Shimmer.js",
-                                            lineNumber: 31,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "shimmer-img-wrapper",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                    className: "shimmer-img stroke animate"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Shimmer.js",
-                                                    lineNumber: 37,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "shimmer-btn stroke animate",
-                                                    children: " "
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Shimmer.js",
-                                                    lineNumber: 38,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/Shimmer.js",
-                                            lineNumber: 36,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    ]
-                                }, index, true, {
-                                    fileName: "src/components/Shimmer.js",
-                                    lineNumber: 30,
-                                    columnNumber: 79
-                                }, undefined))
-                        }, void 0, false, {
-                            fileName: "src/components/Shimmer.js",
-                            lineNumber: 29,
-                            columnNumber: 13
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Shimmer.js",
-                    lineNumber: 24,
-                    columnNumber: 11
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Shimmer.js",
-                lineNumber: 23,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Shimmer.js",
-        lineNumber: 12,
-        columnNumber: 10
-    }, undefined);
-};
-_c1 = MenuShimmer;
-const Shimmer = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "shimmer-container",
-        children: Array(shimmer_card_unit).fill("").map((element, index)=>{
-            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CardShimmer, {}, index, false, {
-                fileName: "src/components/Shimmer.js",
-                lineNumber: 50,
-                columnNumber: 14
-            }, undefined);
-        })
-    }, void 0, false, {
-        fileName: "src/components/Shimmer.js",
-        lineNumber: 47,
-        columnNumber: 10
-    }, undefined);
-};
-_c2 = Shimmer;
-exports.default = Shimmer;
-var _c, _c1, _c2;
-$RefreshReg$(_c, "CardShimmer");
-$RefreshReg$(_c1, "MenuShimmer");
-$RefreshReg$(_c2, "Shimmer");
-
-  $parcel$ReactRefreshHelpers$0b04.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1D8lC":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../config":"jtCLN","../../utils/cartSlice":"1D8lC","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./shimmer":"fWXGy"}],"1D8lC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addItems", ()=>addItems);
@@ -49781,127 +49653,6 @@ $RefreshReg$(_c, "FoodItemCart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../config":"jtCLN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kLvWg":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c69a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c69a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _s = $RefreshSig$();
-const Contact = ()=>{
-    _s();
-    const [message, setMessage] = (0, _react.useState)(false);
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        setMessage(true);
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "contact-container",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "contact-left",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: "https://th.bing.com/th/id/OIP.zoSaGEN83dh-e62wCovM4AHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-                    alt: ""
-                }, void 0, false, {
-                    fileName: "src/components/contact.js",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/contact.js",
-                lineNumber: 9,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "contact-right",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "Contact us"
-                    }, void 0, false, {
-                        fileName: "src/components/contact.js",
-                        lineNumber: 13,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                        onSubmit: handleSubmit,
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "text",
-                                placeholder: "Name",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "src/components/contact.js",
-                                lineNumber: 15,
-                                columnNumber: 19
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "email",
-                                placeholder: "Email",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "src/components/contact.js",
-                                lineNumber: 16,
-                                columnNumber: 23
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                                placeholder: "Type your Message here...",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "src/components/contact.js",
-                                lineNumber: 17,
-                                columnNumber: 23
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                type: "submit",
-                                children: "Submit"
-                            }, void 0, false, {
-                                fileName: "src/components/contact.js",
-                                lineNumber: 18,
-                                columnNumber: 23
-                            }, undefined),
-                            message && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "Thanks for contacting FoodFire, We will reply ASAP."
-                            }, void 0, false, {
-                                fileName: "src/components/contact.js",
-                                lineNumber: 19,
-                                columnNumber: 35
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/contact.js",
-                        lineNumber: 14,
-                        columnNumber: 19
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/contact.js",
-                lineNumber: 12,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/contact.js",
-        lineNumber: 8,
-        columnNumber: 10
-    }, undefined);
-};
-_s(Contact, "n0fnK4ZqApEScFgFl1/p++eCWeA=");
-_c = Contact;
-exports.default = Contact;
-var _c;
-$RefreshReg$(_c, "Contact");
-
-  $parcel$ReactRefreshHelpers$c69a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["3lsJq","1xC6H","bNKaB"], "bNKaB", "parcelRequire81d3")
+},{"react/jsx-dev-runtime":"iTorj","../config":"jtCLN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["3lsJq","1xC6H","bNKaB"], "bNKaB", "parcelRequire81d3")
 
 //# sourceMappingURL=index.0641b553.js.map

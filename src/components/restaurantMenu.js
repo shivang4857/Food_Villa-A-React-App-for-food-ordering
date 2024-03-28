@@ -7,7 +7,7 @@ import {
   MENU_ITEM_TYPE_KEY,
   RESTAURANT_TYPE_KEY,
 } from "../config";
-import {MenuShimmer} from "./Shimmer";
+import {MenuShimmer} from "./shimmer";
 import { addItems } from "../../utils/cartSlice";
 import { useDispatch } from "react-redux";
 
