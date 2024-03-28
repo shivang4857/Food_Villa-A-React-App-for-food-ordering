@@ -1,6 +1,6 @@
 import RestaurantCard from "./restaurantcard";;
 import { useEffect, useState } from "react"; /* This is named export */
-import Shimmer from "./Shimmer"; /* This is default export */
+import Shimmer from "./shimmer"; /* This is default export */
 import { Link } from "react-router-dom";
 import { swiggy_api_URL } from "../config";
 
